@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/linear_scroll"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/table_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="Name   "/>
+                    <TextView
+                        android:id="@+id/textViewName"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="Datum   "/>
+                    <TextView
+                        android:id="@+id/textViewDatum"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="1ct   "/>
+                    <TextView
+                        android:id="@+id/textView1ct"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="2ct   "/>
+                    <TextView
+                        android:id="@+id/textView2ct"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="5ct   "/>
+                    <TextView
+                        android:id="@+id/textView5ct"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="10ct   "/>
+                    <TextView
+                        android:id="@+id/textView10ct"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="20ct   "/>
+                    <TextView
+                        android:id="@+id/textView20ct"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="50ct   "/>
+                    <TextView
+                        android:id="@+id/textView50ct"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="1€   "/>
+                    <TextView
+                        android:id="@+id/textView1euro"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="2€   "/>
+                    <TextView
+                        android:id="@+id/textView2euro"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="5€   "/>
+                    <TextView
+                        android:id="@+id/textView5euro"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="10€   "/>
+                    <TextView
+                        android:id="@+id/textView10euro"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="20€   "/>
+                    <TextView
+                        android:id="@+id/textView20euro"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="50€   "/>
+                    <TextView
+                        android:id="@+id/textView50euro"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="100€   "/>
+                    <TextView
+                        android:id="@+id/textView100euro"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="200€   "/>
+                    <TextView
+                        android:id="@+id/textView200euro"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:gravity="end" android:textStyle="bold" android:text="500€   "/>
+                    <TextView
+                        android:id="@+id/textView500euro"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightgreen">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:text="Total:"/>
+
+        <TextView
+            android:id="@+id/textViewTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0,00€"/>
+    </LinearLayout>
+
+</LinearLayout>
